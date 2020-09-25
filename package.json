@@ -15,6 +15,7 @@
     "@discordjs/opus": "^0.3.2",
     "ascii-table": "0.0.9",
     "canvas-senpai": "^0.1.6",
+    "colornames": "^1.1.1",
     "discord.js": "^12.3.1",
     "discord.js-commando": "^0.10.0",
     "dotenv": "^8.2.0",
