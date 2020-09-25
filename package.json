@@ -2,10 +2,9 @@
   "name": "evobot",
   "version": "0.7.0",
   "description": "Discord music bot built with discord.js",
-  "main": "index.js",
-  "author": "Erit Islami <eritislami@gmail.com>",
+  "main": "server.js",
+  "author": "chillplayz",
   "private": true,
-  "homepage": "https://github.com/eritislami/evobot",
   "repository": "github:eritislami/evobot",
   "bugs": "https://github.com/eritislami/evobot/issues",
   "engines": {
