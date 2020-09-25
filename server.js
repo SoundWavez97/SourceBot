@@ -154,4 +154,5 @@ client.on("guildMemberAdd", async member => {
   client.channels.cache.get(chx).send("Welcome to our Server " + member.user.username, attachment);
 });
 
-client.login(token);
+//Login
+client.login(process.env.token);
