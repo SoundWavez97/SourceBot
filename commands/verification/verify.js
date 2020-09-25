@@ -8,8 +8,8 @@ module.exports = {
    run: async (client, message, args) => {
     await message.member.roles.add('749631622105661541')
  if (!message.member.roles.cache.get('749631622105661541')) return
-     if (message.channel.id !== '752826586029490196') return
-    await message.channel.send("You Have Been successfully verified in **Chill's world**")
+     if (message.channel.id !== '758244690541281320') return
+    await message.channel.send("You Have Been successfully verified in **Chill's Base**")
   }
 }
 
