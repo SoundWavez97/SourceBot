@@ -15,7 +15,7 @@ module.exports = {
   }
   
       //OWNER ONLY COMMAND
-    let allowed_users = ['718164201033564200', '696781138630279229']
+    let allowed_users = ['[REPLACE THIS WITH BOT OWNER ID]']
     if (!allowed_users.includes(message.author.id)) return message.reply('no permission rip')
     const user = message.mentions.users.first()
     if (!user) return message.reply("Please mention someone!")
