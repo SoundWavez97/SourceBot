@@ -17,7 +17,6 @@ const canva = new CanvasSenpai();
 ["command"].forEach(handler => {
   require(`./handlers/${handler}`)(client);
 });
-
 client.snipes = new Map()
 client.on('messageDelete', function(message, channel){
   
